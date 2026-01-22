@@ -1,22 +1,36 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.first-section-background-color {
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    padding: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .first-section {
     display: flex;
+    min-height: 0;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
     color: white;
-    width: 70vw;
+    width: 800px;
     background-color: #1F2937;
-    gap: 8px;
-}
-
-.first-section-background-color {
-    background-color: #1F2937;
-    padding: 20px;
-    height: 380px;
+    gap: 15px;
+    flex-shrink: 0;
 }
 
 header {
@@ -40,13 +54,14 @@ ul {
     justify-content: center;
     margin: 0 auto;
     gap: 20px;
+    width: 800px;
     align-items: center;
     margin-bottom: 20px;
     margin-top: 30px;
 }
 
 .header {
-    flex: 0 1 50%;
+    flex: 1 0 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -54,11 +69,16 @@ ul {
 
 h1 {
     margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .placeholder-of-image {
-    flex: 0 1 50%;
-    border: 1px solid grey;
+    flex: 1 0 400px;
+    background-color: grey;
+    color: white;
+    font-size: 13px;
     align-self: stretch;
     display: flex;
     justify-content: center;
@@ -66,6 +86,13 @@ h1 {
 }
 
 .sign-up {
+    font-weight: 700;
+    font-size: 14px;
     width: 100px;
-    padding: 5px 10px;
+    padding: 8px 10px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    border: none;
 }
+
