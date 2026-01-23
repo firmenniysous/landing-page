@@ -96,3 +96,29 @@ h1 {
     border: none;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.places div {
+    width: 120px;
+    height: 120px;
+    border: #3882f6 1.4px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.places div p {
+    text-align: center;
+    font-size: 12px;
+}
+
