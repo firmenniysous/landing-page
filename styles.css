@@ -79,6 +79,10 @@ h1 {
     background-color: grey;
 }
 
+.placeholder-of-image img {
+    border-radius: 20px;
+}
+
 .sign-up {
     font-weight: 700;
     font-size: 14px;
@@ -177,4 +181,15 @@ h3 {
     margin: 0;
     font-weight: 200;
     font-size: 15px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+footer p {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 13.5px;
 }
