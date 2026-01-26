@@ -98,17 +98,21 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin-bottom: 50px;
 }
 
 .places {
     display: flex;
-    justify-content: center;
-    gap: 5vw;
+    justify-content: space-evenly;
+    width: 85vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .places div {
-    width: 140px;
-    height: 140px;
+    width: 225px;
+    height: 225px;
     border: #3882f6 1.4px solid;
     border-radius: 15px;
     box-sizing: border-box;
@@ -134,7 +138,6 @@ blockquote p {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    text-align: center;
     width: 60vw;
 }
 
