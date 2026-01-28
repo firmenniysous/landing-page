@@ -7,7 +7,7 @@ body {
 
 .first-section-background-color {
     background-color: #1F2937;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,8 +16,13 @@ body {
 .logo {
     border-radius: 30px;
     overflow: hidden;
+    height: 80px;
     display: flex;
-    align-items: center
+    align-items: center;
+}
+
+.logo img {
+    width: 20vw;
 }
 
 .first-section {
@@ -25,24 +30,20 @@ body {
     flex-direction: column;
     color: white;
     background-color: #1F2937;
-    flex: 1 0 auto;
-    margin-bottom: 45px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -80px;
-    margin-bottom: -60px;
+    width: 80vw;
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    flex: 0 1 30%;
-    gap: 20px;
+    gap: 2vw;
 }
 
 .header-with-image {
@@ -51,7 +52,6 @@ ul {
     align-items: center;
     margin-bottom: 20px;
     width: 80vw;
-    margin-left: 50px;
 }
 
 .header {
@@ -69,7 +69,7 @@ h1 {
 }
 
 .placeholder-of-image {
-    flex: 1 1 400px;
+    flex: 1 1 100px;
     color: white;
     font-size: 13px;
     align-self: stretch;
